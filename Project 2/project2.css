@@ -1,0 +1,51 @@
+.search{ margin-left: 650px;
+}
+.font{font-size: 30px ;font-family:Georgia, 'Times New Roman', Times, serif; color: #113485;}
+
+body{ background: url(https://cdn.pixabay.com/photo/2022/07/20/18/44/reading-7334749_1280.png) no-repeat center fixed;
+background-size: cover; background-position: center;
+}
+
+.G {font-size: 15px; color: rgb(2, 119, 223)
+    ;
+
+
+
+}
+.black{
+    background-color: azure;
+    height: 400px;
+    margin-top: 5%;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0.8;
+    padding: 50px;
+    
+}
+.m{font-family: 'Pacifico', cursive;font-size: 64px;color: rgb(98, 98, 243);fill-opacity: 0.5;}
+
+.x{font-family: 'Domine', serif; font-size: 24px;}
+
+@media (min-width:319px){
+.black{ 
+    background: rgb(0, 29, 52);
+    
+}
+.x{font-family: 'Domine', serif; font-size: 16px; color: aliceblue;}
+.m{font-family: 'Pacifico', cursive;font-size: 40px;color: rgb(98, 98, 243);fill-opacity: 0.5;}
+}
+
+@media (min-width:768px){
+    .black{ 
+        background: rgb(25, 25, 27)
+    }
+    .x{font-family: 'Domine', serif; font-size: 20px; color: rgb(27, 121, 184);}
+    .m{font-family: 'Pacifico', cursive;font-size: 50px;color: rgb(98, 98, 243);fill-opacity: 0.5;}
+    }
+    @media (min-width:1024px){
+        .black{ 
+            background: rgb(247, 247, 248)
+        }
+        .x{font-family: 'Domine', serif; font-size: 24px; color: black;}
+        .m{font-family: 'Pacifico', cursive;font-size: 64px;color: rgb(98, 98, 243);fill-opacity: 0.5;}
+        }
